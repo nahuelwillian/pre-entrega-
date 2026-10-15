@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto de Barberia</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../estilos/contacto.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="../img/125387735-barbería-vector-vintage-etiqueta-insignia-o-emblema-sobre-fondo-blanco-plantilla-de-vector.jpg" class="logo" alt="Barberia" width="100" height="100">
+        </a>
+        <div>
+            <ul id="navbar" class="navbar">
+                <li><a href="../index.html">Galeria</a></li>
+                <li><a href="../pages/Servicios.html">Servicios</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+            </ul>
+        </div>
+       
+    </header>
+
+    <main>
+
+        <section class="form-details">
+
+            <form action="https://tuFormulario" method="POST" id="formularioContacto">
+                <div class="form-container">
+                <h2>DEJANOS UN MENSAJE</h2>
+
+                <div class="campo-control">
+                    <input type="text" id="tuNombre" name="nombre" placeholder="Tu Nombre">
+                    <div class="texto-error"></div>
+                </div>
+
+                <div class="campo-control">
+                    <input type="text" id="tuCorreo" name="correo" placeholder="Correo electrónico">
+                    <div class="texto-error"></div>
+                </div>
+
+                <div class="campo-control">
+                    <textarea id="tuMensaje" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                    <div class="texto-error"></div>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form></div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #777272;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #088178;
+}
+
+.hero {
+    background-image: url('img/fondo3.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 5% center;
+    padding: 0 80px;
+    margin-bottom: 40px;
+}
+
+.hero .hero-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    z-index: 1;
+}
+
+.hero .hero-content h4 {
+    color: #104577;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.hero .hero-content h1 {
+    color: #ffffff;
+   text-align:center;
+}
+
+
+.hero .hero-content button {
+    background-color: #130850;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.section-cortes {
+    text-align: center;
+    background-color:#313336
+}
+
+
+.section-cortes .cortes-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.section-cortes .cortes-container .cortes {
+    text-align: center;
+    width: 23%;
+    min-width: 250px;
+    margin: 15px 0;
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: 1px solid #0a0a0a;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+   
+}
+
+.section-cortes .cortes-container .cortes img {
+    width: 100%;
+    border-radius: 20px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+}
+

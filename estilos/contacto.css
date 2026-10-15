@@ -1,0 +1,44 @@
+main{
+background-color:#444353;
+ margin: 0;                 
+  height: 90vh;            
+  display: flex;            
+  justify-content: center;   
+  align-items: center; 
+}
+
+
+.form-details form input,
+.form-details form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.form-details form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+
+.form-details form button {
+    background-color: #088178;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
